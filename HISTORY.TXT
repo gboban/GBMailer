@@ -1,0 +1,52 @@
+History file for GBMailer version 2.02
+
+version 2.02 (september 2000)
+
+	- Fixed problem with ESMTP multiline responses to HELO command
+	(Solution proposed by Christian Marg (einhirn@gmx.de))
+
+source published under GPL license (September 2000)
+
+	- This is same old 2.01 version, but now distributed with source
+
+version 2.01 (Jun 2000)
+
+	- Bug fix.
+
+version 2.00 (Jun 2000)
+
+	- Linux version
+
+	- Now you can use redirection and pipes (see -i switch).
+	
+	- socket errors are now returned as negative values (<0),
+	SMTP responses as positive (2NN-5NN) and if return value
+	is 1 than this is switch error. No error is still 0.
+
+Version 1.12 (August 1999)
+
+	- Now, you can send e-mail without body (i.e. -file switch is no more
+	required).
+	
+	- Internal structure is cleared and some typos in error messages are
+	corrected.
+
+Version 1.11 (May 1998)
+
+	- Corrected SMTP sintax.
+
+Version 1.10 (February 1998)
+
+	- Added -bcc switch, so now you can use it to pass "blind carbon copy"
+	list.
+
+	- "To:" field is now created by GBMailer, so now recipient will  always
+	get "To:" field in header.
+
+Version 1.01 (January 1998)
+
+	- Problem with -s option is now corrected, so you should be able
+	to send mail with subject.
+
+	- There is no 255 characters limit on argument to -file option any more.
+
