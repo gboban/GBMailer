@@ -4,8 +4,8 @@ September 2000 version 2.02
 
 Author:
 Goran Boban
-info@gboban.hypermart.net
-Home page: http://gboban.hypermart.net
+gboban70@gmail.com
+Home page: https://github.com/gboban/GBMailer
 
 License: GPL (please read LICENSE.TXT)
 
@@ -97,7 +97,7 @@ gbmail -i -h smtp.server.com -from me@my.machine.com -to you@your.machine.com -s
 
 	Please send bug reports and sugestions to:
 
-	gbmailer@gboban.hypermart.net
+	gboban70@gmail.com
 
 	IMPORTANT NOTE: When sending bug reports or questions on using GBMailer please
 	be sure to include following information:
